@@ -19,4 +19,4 @@ for (i=0; i<app.documents.length; i++)
                         idoc.saved = true;  
                     }  
             }  
-    }  
+    }
