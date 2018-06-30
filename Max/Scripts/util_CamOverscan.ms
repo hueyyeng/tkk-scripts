@@ -1,5 +1,5 @@
 -- Overscan 0.2 - (c) 2005 Martin Breidt (martin@breidt.net)
--- Useage: Run this script with an active camera view.
+-- Usage: Run this script with an active camera view.
 --
 --
 -- This code is released under "Quote ware" license:
