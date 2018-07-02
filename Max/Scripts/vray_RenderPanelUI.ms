@@ -7,8 +7,10 @@ Last updated: 31 October 2017
 
 renderSceneDialog.close()
 
-vrayRdrSetPath = "vray_RenderSettings.ms"
-fileIn vrayRdrSetPath
+-- Ensure vray_RenderSettings.ms is in
+-- the same directory with this script
+settings = "vray_RenderSettings.ms"
+fileIn settings
 
 -- Set Initial Variables Here
 rdrName = classof renderers.current as string
@@ -260,7 +262,11 @@ rollout PAB "About" rolledUp: false
 (
 	label textAuthor "Written by Huey Yeng"
 	label textYear "Copyright \xa9 2016-2018"
-	hyperlink textWeb "https://taukeke.com/" address: "https://taukeke.com/" hoverColor:( color 255 255 255 ) visitedColor:( color 250 210 255 ) align:#center
+	hyperlink textWeb "https://taukeke.com/"
+			  address: "https://taukeke.com/"
+			  hoverColor:( color 255 255 255 )
+			  visitedColor:( color 250 210 255 )
+			  align:#center
 	--label textWarning "Use at your own risk!"
 )
 

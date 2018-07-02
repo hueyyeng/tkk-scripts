@@ -26,18 +26,22 @@ fn createOutputDir pathOutputDir filename =
 )
 -- Functions ends here--
 
-drive = "P:\\"
-project = "DQ"
-output_dir =  "Output"
-output_path = drive + "\\" + project + "\\\\" + output_dir + "\\\\"
+
+-- Since "\"" is an escape character, use "\\" for directory separator
+-- TODO: Use @ character aka Verbatim String for file path strings?
+
+drive = "P:\\"  -- Drive letter or volume path to projects
+project = "DQ"  -- Project Name or equivalent
+output_dir =  "Output"  -- The output directory (set to where your render output goes)
+output_path = drive + "\\" + project + "\\\\" + output_dir + "\\\\"  -- The final render path
 
 filepath = maxFilePath
 filename = maxFileName
 
 -- Debugging purpose
---filename = "s002c002A_BG_v001.max"
---filename = "s002c002A_BG_Utility_Render_v001.max"
---filename = "s002c002A_FX_Firaga_Beauty_Render_v001.max"
+-- filename = "s002c002A_BG_v001.max"
+-- filename = "s002c002A_BG_Utility_Render_v001.max"
+-- filename = "s002c002A_FX_Firaga_Beauty_Render_v001.max"
 
 token_a = "\\"
 token_b = "_ ."
@@ -62,4 +66,4 @@ popup_text = ("This will be your output name:" + "\n" + render_filename)
 if (queryBox popup_text == true) then
 	createOutputDir r_filepath r_filename
 else
-	messageBox "ABSOLUTELY HARAM"
+	messageBox "Process aborted by user!"
