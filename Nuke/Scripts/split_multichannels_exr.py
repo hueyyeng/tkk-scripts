@@ -1,3 +1,12 @@
+# Repurpose from http://www.muttsy.net/blog/2011/10/20/shuffle-out-all-channels/
+"""Split/shuffle Multichannel EXRs
+
+Splits multichannel EXRs using Shuffle node that shuffles every layers into RGBA.
+
+"""
+import nuke
+
+
 def split_multichannels_exr():
     nodes = nuke.selectedNodes()
     for node in nodes:

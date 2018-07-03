@@ -10,7 +10,11 @@ Huey Yeng, 2018
 
 Browse the repo and download the raw file of your choice or download using the green **Clone or download** button. Select **Download ZIP** and then extract the contents.
 
-Alternatively, clone this repo using `git clone https://github.com/hueyyeng/tkk-scripts.git` in your preferred command-line shell (e.g. Bash, Command Prompt).
+Alternatively, clone this repo using the following command in your preferred command-line shell (e.g. Bash, Command Prompt).:
+```
+git clone https://github.com/hueyyeng/tkk-scripts.git
+```
+
 
 ## Repo Contents
 This repo contains scripts/gizmos for the following software in no particular order:
