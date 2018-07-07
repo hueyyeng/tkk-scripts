@@ -23,5 +23,8 @@ for node in nodes:
     name = (path.split("/"))[-1]  # Access the last value in array for path after splitting it with "/" delimiter
     source_list.append(name)  # Add/append name into source_list
 
-for name in source_list:
+result = "\nList of Read nodes:\n"
+print(result)
+    
+for name in sorted(source_list):
     print(name)
