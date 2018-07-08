@@ -1,0 +1,35 @@
+# Result: 
+List of Read nodes:
+
+TexturesCom_Skies0354_31_M.jpg
+fFIR_FireA_v001.%04d.exr
+fFIR_FireB_v001.%04d.exr
+fFIR_FireC_v001.%04d.exr
+fSMK_SmokePlumeA_v001.%04d.exr
+fSMK_SmokeSmallA_v001.%04d.exr
+fSMK_SmokeSmallB_v001.%04d.exr
+s002c002_BG_Beauty_v001.%04d.exr
+s002c002_BG_Debris_Beauty_v001.%04d.exr
+s002c002_BG_Debris_bgShadow_v001.%04d.exr
+s002c002_BG_Mask_v001.%04d.exr
+s002c002_BG_WetDock_v001.%04d.exr
+s002c002_Comp_0402_v001.mov
+s002c002_FX_Droplet_Beauty_v002.%04d.exr
+s002c002_FX_Mist_Beauty_v001.%04d.exr
+s002c002_FX_Ocean_Beauty_v002.%04d.exr
+s002c002_FX_Ocean_bgShadow_v001.%04d.exr
+s002c002_FX_Ocean_bgWetmap_v001.%04d.exr
+s002c002_FX_Sparks_Beauty_v001.%04d.exr
+s002c002_FX_Splash_bgWetmap_v001.%04d.exr
+s002c002_FX_SprayMesh_Beauty_v002.%04d.exr
+s002c002_FX_SprayMesh_bgShadow_v001.%04d.exr
+s002c002_FX_SprayPoints_Beauty_v001.%04d.exr
+s002c002_FX_Spray_Beauty_v002.%04d.exr
+s002c002_FX_Spray_Depth_v001.%04d.exr
+s002c002_FX_Whitewater_Beauty_v001.%04d.exr
+s002c002_Proxy_v001.%04d.exr
+s002c002_Utility_v001.%04d.exr
+s002c002_Utility_v001.%04d.exr
+s002c002_Vehicles_Beauty_v001.%04d.exr
+s002c002_Vehicles_PanelOnly_v001.%04d.exr
+s002c002_Vehicles_bgShadow_v002.%04d.exr
